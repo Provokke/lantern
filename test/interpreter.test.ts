@@ -119,3 +119,4 @@ test('context object identity is kept when nothing assigns', () => {
   const s1 = m.transition(s0, { type: 'TOGGLE' });
   assert.equal(s1.context, s0.context);
 });
+
