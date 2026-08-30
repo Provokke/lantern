@@ -59,4 +59,3 @@ export interface PendingEffect<C, E extends AnyEvent> {
 export interface InitEvent {
   readonly type: 'lantern.init';
 }
-

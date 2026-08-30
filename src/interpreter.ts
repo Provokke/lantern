@@ -75,4 +75,3 @@ export class Interpreter<C, E extends AnyEvent> {
 export function interpret<C, E extends AnyEvent>(machine: Machine<C, E>): Interpreter<C, E> {
   return new Interpreter(machine);
 }
-

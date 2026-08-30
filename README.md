@@ -103,4 +103,3 @@ Without the interpreter, `machine.transition(state, event)` gives you the next s
 - Machine (12): initial state, purity, unhandled events, `assign`, `can` and `nextEvents`, the compile-time check that unknown event names are rejected, guard ordering, named guards and actions, wildcards, creation-time validation, unknown action errors, effects as data.
 - Hierarchy (15): initial descent, entry and exit order, `matches` on whole segments, sibling moves, bubbling, leaf versus ancestor priority, guard fall-through, targetless transitions, self transitions, `.child` targets, scope resolution, final states, `always` transitions and loop detection.
 - Interpreter (9): start and idempotence, sending before start, effects with updated context, subscriptions, queued events sent from effects, stopping, return values and context identity.
-

@@ -176,4 +176,3 @@ test('plain functions become effects without touching context', () => {
   next.effects[0]!.run(next.context, next.event);
   assert.deepEqual(calls, ['X']);
 });
-

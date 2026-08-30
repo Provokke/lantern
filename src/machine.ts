@@ -311,4 +311,3 @@ export class Machine<C, E extends AnyEvent> {
 export function createMachine<C, E extends AnyEvent>(config: MachineConfig<C, E>): Machine<C, E> {
   return new Machine(config);
 }
-
